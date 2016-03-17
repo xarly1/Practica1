@@ -11,12 +11,22 @@ public class Jarra {
 		this.capacidad=capacidadInicial;
 	}
 //  metodos
+
              public void llena(){
 		this.cantidad=this.capacidad;
 	}
 public void vacia(){
 		this.cantidad=0;
 	}
+
+public int capacidad(){
+		return this.capacidad;
+	}
+	public int cantidad(){
+		return this.cantidad;
+	}
+
+         
 
         public void metodoComunitario(){ 
 // Comentario incluido para pruebas 
